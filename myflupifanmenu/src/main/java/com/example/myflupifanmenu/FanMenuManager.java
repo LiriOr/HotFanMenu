@@ -49,7 +49,7 @@ public class FanMenuManager implements View.OnClickListener {
     }
 
 
-    void open() {
+    public void open() {
         dividerContainer.removeAllViews();
         addSubButtons();
         mainFloatingBtn.bringToFront();
